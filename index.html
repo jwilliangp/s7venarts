@@ -9,117 +9,112 @@
     <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
     <script type="text/javascript">
         (function() {
-            emailjs.init("ZbO-OWsSuzvgLgLsO"); // Substitua pela sua chave pública
+            emailjs.init("ZbO-OWsSuzvgLgLsO");
         })();
     </script>
-    <script src="scripts/script.js"></script>
+    <script src="scripts/scripts.js"></script>
     <script src="scripts/contact-form.js"></script>
 </head>
 <body>
-<div>
-    <header>
-        <div class="container">
-            <h1>S7VEN ARTS</h1>
-            <nav>
-                <ul>
-                    <li><a href="#intro">Sobre</a></li>
-                    <li><a href="#portfolio">Portfólio</a></li>
-                    <li><a href="#contact">Contato</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-
-    <section id="intro">
-        <div class="container">
-            <h2>Sobre Mim</h2>
-            <p>Eu sou um designer gráfico de 18 anos, e amo o que faço.<br> Trabalho com artes visuais, desde panfletos e posts de Instagram até estampas de camisetas.
-            <br>
-            Gosto de criar peças que conectam ideias com pessoas e ajudam marcas a se destacar.<br>
-            No meu portfólio, você vai encontrar alguns dos meus trabalhos.<br>
-            Tudo o que faço é pensado para refletir o estilo e a mensagem que cada cliente quer passar.<br>
-            Se você curtiu o que viu, vamos conversar e criar algo juntos!</p>
-        </div>
-    </section>
-
-    <section id="portfolio">
-        <div class="container">
-            <h2>Artes</h2>
-            <div class="portfolio-section panfletos">
-                <h3>Panfletos</h3>
-                <div class="gallery">
-                    <img src="images/panfleto 1.png" alt="Panfleto 1">
-                    <img src="images/panfleto 2.png" alt="Panfleto 2">
-                    <img src="images/panfleto 3.png" alt="Panfleto 3">
-                </div>
-            </div>
-            <div class="portfolio-section camisas">
-                <h3>Camisas</h3>
-                <div class="gallery">
-                    <img src="images/camisa 1.png" alt="Camisa 1">
-                    <img src="images/camisa 2.png" alt="Camisa 2">
-                    <img src="images/camisa 3.png" alt="Camisa 3">
-                </div>
-            </div>
-            <div class="portfolio-section posters">
-                <h3>Posters</h3>
-                <div class="gallery">
-                    <img src="images/poster 1.png" alt="Poster 1">
-                    <img src="images/poster 2.png" alt="Poster 2">
-                    <img src="images/poster 3.png" alt="Poster 3">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <div id="modal" class="modal">
-        <span class="close" onclick="closeModal()">&times;</span>
-        <img class="modal-content" id="modalImage">
-        <div id="caption"></div>
-    </div>
-
-    <section id="contact">
-        <div class="container">
-            <h2>Entre em Contato</h2>
-            <div class="contact-description">
-                <p>Obrigado por visitar nosso site! Estamos sempre prontos para ajudar. Se você tiver alguma dúvida ou precisar de mais informações, não hesite em entrar em contato conosco. Adoraríamos ouvir de você!</p>
-            </div>
-            <div class="contact">
-                <div class="contact-info">
-                    <a href="https://wa.me/5511945308776?text=Olá!%20Estou%20interessado%20em%20seu%20trabalho,%20podemos%20conversar?" target="_blank"> 
-                        <img src="images/imgwhats.png" alt="Contato Whatsapp" id="whats">
-                    </a>
-                    <a href="https://www.instagram.com/s7venarts/" target="_blank">
-                        <img src="images/insta.png" alt="Contato Instagram" id="insta">
-                    </a>
-                </div>
-    
-                <form id="contactForm">
-                    <div class="form-group">
-                        <label for="name">Nome:</label>
-                        <input type="text" id="name" name="from_name" required placeholder="Seu Nome">
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Seu Email:</label>
-                        <input type="email" id="email" name="from_email" required placeholder="Seu Email">
-                    </div>
-                    <div class="form-group">
-                        <label for="subject">Assunto:</label>
-                        <input type="text" id="subject" name="subject" placeholder="Assunto da Mensagem">
-                    </div>
-                    <div class="form-group">
-                        <label for="message">Mensagem:</label>
-                        <textarea id="message" name="message" rows="4" required placeholder="Sua Mensagem"></textarea>
-                    </div>
-                    <button type="submit">Enviar Mensagem</button>
-                </form>
-            </div>
-        </div>
-        <footer>
+    <div>
+        <header>
             <div class="container">
-                <p>&copy; 2024 S7ven Arts. Todos os direitos reservados.</p>
+                <h1>S7VEN ARTS</h1>
+                <nav>
+                    <ul>
+                        <li><a href="#intro">Sobre</a></li>
+                        <li><a href="#portfolio">Portfólio</a></li>
+                        <li><a href="#contact">Contato</a></li>
+                    </ul>
+                </nav>
             </div>
-        </footer>
-    </section>
+        </header>
+
+        <section id="intro">
+            <div class="container">
+                <h2>Sobre Mim</h2>
+                <p>Eu sou um designer gráfico de 18 anos, e amo o que faço.<br> Trabalho com artes visuais, desde panfletos e posts de Instagram até estampas de camisetas.
+                    <br>
+                    Gosto de criar peças que conectam ideias com pessoas e ajudam marcas a se destacar.<br>
+                    No meu portfólio, você vai encontrar alguns dos meus trabalhos.<br>
+                    Tudo o que faço é pensado para refletir o estilo e a mensagem que cada cliente quer passar.<br>
+                    Se você curtiu o que viu, vamos conversar e criar algo juntos!</p>
+            </div>
+        </section>
+
+        <section id="portfolio">
+            <div class="container">
+                <h2>Artes</h2>
+                <div class="portfolio-section panfletos">
+                    <h3>Panfletos</h3>
+                    <div class="gallery">
+                        <img src="images/panfleto 1.png" alt="Panfleto 1">
+                        <img src="images/panfleto 2.png" alt="Panfleto 2">
+                        <img src="images/panfleto 3.png" alt="Panfleto 3">
+                    </div>
+                </div>
+                <div class="portfolio-section camisas">
+                    <h3>Camisas</h3>
+                    <div class="gallery">
+                        <img src="images/camisa 1.png" alt="Camisa 1">
+                        <img src="images/camisa 2.png" alt="Camisa 2">
+                        <img src="images/camisa 3.png" alt="Camisa 3">
+                    </div>
+                </div>
+                <div class="portfolio-section posters">
+                    <h3>Posters</h3>
+                    <div class="gallery">
+                        <img src="images/poster 1.png" alt="Poster 1">
+                        <img src="images/poster 2.png" alt="Poster 2">
+                        <img src="images/poster 3.png" alt="Poster 3">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div id="modal" class="modal">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <img class="modal-content" id="modalImage">
+            <div id="caption"></div>
+        </div>
+
+        <section id="contact">
+            <div class="container">
+                <h2>Entre em Contato</h2>
+                <div class="contact-description">
+                    <p>Obrigado por visitar o S7ven Arts! <br>Se você gostou do meu trabalho e deseja colaborar, entre em contato. <br>Estou aqui para ajudar a transformar suas ideias em peças únicas. <br>Vamos criar algo incrível juntos!</p>
+                </div>
+                <div class="contact">
+                    <div class="contact-info">
+                        <a href="https://wa.me/5511945308776?text=Olá!%20Estou%20interessado%20em%20seu%20trabalho,%20podemos%20conversar?" target="_blank"> 
+                            <img src="images/imgwhats.png" alt="Contato Whatsapp" id="whats">
+                        </a>
+                        <a href="https://www.instagram.com/s7venarts/" target="_blank">
+                            <img src="images/insta.png" alt="Contato Instagram" id="insta">
+                        </a>
+                    </div>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Nome:</label>
+                            <input type="text" id="name" name="from_name" required placeholder="Seu Nome">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Seu Email:</label>
+                            <input type="email" id="email" name="from_email" required placeholder="Seu Email">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Assunto:</label>
+                            <input type="text" id="subject" name="subject" placeholder="Assunto da Mensagem">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensagem:</label>
+                            <textarea id="message" name="message" rows="4" required placeholder="Sua Mensagem"></textarea>
+                        </div>
+                        <button type="submit">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        </section>
 </body>
 </html>
